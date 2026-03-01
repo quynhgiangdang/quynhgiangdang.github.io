@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Giang Dang — Linguistics, UPenn</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="site-header">
+    <img src="profile.jpg" alt="Giang Dang" class="profile-photo" width="160" height="160">
+    <h1 class="site-title">Giang Dang</h1>
+    <p class="site-subtitle">PhD in Linguistics, University of Pennsylvania</p>
+    <nav class="main-nav" role="navigation">
+      <button type="button" class="nav-btn active" data-tab="about" aria-selected="true">About</button>
+      <button type="button" class="nav-btn" data-tab="publications">Publications</button>
+      <button type="button" class="nav-btn" data-tab="teaching">Teaching</button>
+      <button type="button" class="nav-btn" data-tab="talks">Talks</button>
+      <a href="computer_engineering_resume-sample_ubccareercentre.pdf" class="nav-btn nav-btn-cv" target="_blank" rel="noopener">CV (PDF)</a>
+    </nav>
+  </header>
+
+  <main class="main-content">
+    <section id="about" class="tab-panel active" role="tabpanel" aria-labelledby="tab-about">
+      <h2>About</h2>
+      <p>
+        I am a PhD candidate in Linguistics at the University of Pennsylvania. My research interests include [edit: add a short sentence or two about her focus, e.g. syntax, semantics, phonology, language documentation, etc.].
+      </p>
+      <p>
+        You can reach me at <strong>quynhgiangoliu@gmail.com</strong>.
+      </p>
+    </section>
+
+    <section id="publications" class="tab-panel" role="tabpanel" aria-labelledby="tab-publications" hidden>
+      <h2>Publications</h2>
+      <p class="placeholder">Add your publications here. For example:</p>
+      <ul class="publication-list">
+        <li>
+          <span class="pub-title">Title of the paper</span>. <em>Journal or Conference Name</em>, Year. 
+          <a href="#">[PDF]</a> <a href="#">[DOI]</a>
+        </li>
+        <!-- Duplicate the <li> block above for each publication -->
+      </ul>
+    </section>
+
+    <section id="teaching" class="tab-panel" role="tabpanel" aria-labelledby="tab-teaching" hidden>
+      <h2>Teaching</h2>
+      <p class="placeholder">List courses taught or TA'd. For example:</p>
+      <ul>
+        <li><strong>LING 101 — Introduction to Linguistics</strong>, UPenn, Fall 20XX (TA)</li>
+        <li><strong>LING 2XX — Course name</strong>, UPenn, Spring 20XX (Instructor)</li>
+      </ul>
+    </section>
+
+    <section id="talks" class="tab-panel" role="tabpanel" aria-labelledby="tab-talks" hidden>
+      <h2>Talks &amp; Presentations</h2>
+      <p class="placeholder">List invited talks, conference presentations, etc. For example:</p>
+      <ul>
+        <li>“Talk title.” <em>Conference or Workshop Name</em>, City, Month Year.</li>
+        <li>“Talk title.” Department Colloquium, University Name, Month Year.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Giang Dang.</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
