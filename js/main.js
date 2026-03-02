@@ -32,4 +32,38 @@
   // Footer year
   var yearEl = document.getElementById('year');
   if (yearEl) yearEl.textContent = new Date().getFullYear();
+
+  // Lightbox: click gallery image to view full size
+  var lightbox = document.getElementById('lightbox');
+  var lightboxImg = lightbox && lightbox.querySelector('.lightbox-img');
+  var lightboxClose = lightbox && lightbox.querySelector('.lightbox-close');
+  var lightboxBackdrop = lightbox && lightbox.querySelector('.lightbox-backdrop');
+
+  function openLightbox(src, alt) {
+    if (!lightbox || !lightboxImg) return;
+    lightboxImg.src = src;
+    lightboxImg.alt = alt || '';
+    lightbox.hidden = false;
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closeLightbox() {
+    if (!lightbox) return;
+    lightbox.hidden = true;
+    document.body.style.overflow = '';
+  }
+
+  document.querySelectorAll('.gallery-item img').forEach(function (img) {
+    img.addEventListener('click', function (e) {
+      e.stopPropagation();
+      openLightbox(img.src, img.alt);
+    });
+  });
+
+  if (lightboxClose) lightboxClose.addEventListener('click', closeLightbox);
+  if (lightboxBackdrop) lightboxBackdrop.addEventListener('click', closeLightbox);
+
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape' && lightbox && !lightbox.hidden) closeLightbox();
+  });
 })();
