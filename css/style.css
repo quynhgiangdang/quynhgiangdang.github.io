@@ -2,12 +2,13 @@
 
 :root {
   --text: #191716;
-  --text-muted: #444;
+  --text-muted: #e7ddda;
   --accent: #b76671;
   --accent-hover: #6b1f33;
   --border: #ddd;
   --bg: #e7ddda;
   --bg-card: #253d5b;
+  --textbright: #e7ddda; /* this was added lol I hope this works */
   --font-serif: 'Cormorant Garamond', Georgia, serif;
   --font-sans: 'Source Sans 3', system-ui, sans-serif;
 }
@@ -339,6 +340,7 @@ body {
     display: none;
   }
 }
+
 
 
 
