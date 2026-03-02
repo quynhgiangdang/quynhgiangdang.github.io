@@ -7,7 +7,7 @@
   --accent-hover: #6b1f33;
   --border: #ddd;
   --bg: #ffd6de;
-  --bg-card: #c0e8f9;
+  --bg-card: #3e6990;
   --font-serif: 'Cormorant Garamond', Georgia, serif;
   --font-sans: 'Source Sans 3', system-ui, sans-serif;
 }
@@ -339,4 +339,5 @@ body {
     display: none;
   }
 }
+
 
