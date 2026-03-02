@@ -151,6 +151,20 @@ body {
   margin-bottom: 0.5rem;
 }
 
+.contact-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.contact-list a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.contact-list a:hover {
+  text-decoration: underline;
+}
+
 .publication-list {
   list-style: none;
   padding-left: 0;
