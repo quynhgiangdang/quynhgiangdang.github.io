@@ -1,13 +1,13 @@
 /* Academic personal site — clean, readable, print-friendly */
 
 :root {
-  --text: #1a1a1a;
+  --text: #191716;
   --text-muted: #444;
-  --accent: #8b2942;
+  --accent: #9f2d49;
   --accent-hover: #6b1f33;
   --border: #ddd;
-  --bg: #fafafa;
-  --bg-card: #fff;
+  --bg: #ffd6de;
+  --bg-card: #c0e8f9;
   --font-serif: 'Cormorant Garamond', Georgia, serif;
   --font-sans: 'Source Sans 3', system-ui, sans-serif;
 }
@@ -339,3 +339,4 @@ body {
     display: none;
   }
 }
+
