@@ -225,7 +225,7 @@ body {
 
 .gallery-item figcaption {
   font-size: 0.9rem;
-  color: var(--text-muted);
+  color: var(--text);
   margin-top: 0.5rem;
   line-height: 1.4;
 }
@@ -341,6 +341,7 @@ body {
     display: none;
   }
 }
+
 
 
 
