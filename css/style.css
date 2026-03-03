@@ -4,7 +4,7 @@
   --text: #191716;
   --text-muted: #e7ddda;
   --accent: #b76671;
-  --accent-hover: #6b1f33;
+  --accent-hover: #771819;
   --border: #ddd;
   --bg: #e7ddda;
   --bg-card: #253d5b;
@@ -341,6 +341,7 @@ body {
     display: none;
   }
 }
+
 
 
 
