@@ -340,8 +340,25 @@ body {
   .main-nav {
     display: none;
   }
+
+  a {
+    color: #b76671;
+    text-decoration: underline;
+  }
   
+  a:hover {
+    color: #ff8a8a;
+  }
+  
+  a:visited {
+    color: #771819;
+  }
+
+  a:active { 
+    color: #771819; 
+  }
 }
+
 
 
 
