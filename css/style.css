@@ -340,31 +340,9 @@ body {
   .main-nav {
     display: none;
   }
-
-    /* Normal (unvisited) links */
-  a:link {
-    color: #b76671; /* choose your color */
-    text-decoration: underline
-  }
-  
-  /* Visited links */
-  a:visited {
-    color: #771819; /* choose a different or same color */
-    text-decoration: underline
-  }
-  
-  /* Hover (when mouse over) */
-  a:hover {
-    color: #ff8a8a; /* highlight color on hover */
-    text-decoration: underline; /* optional */
-  }
-  
-  /* Active (when clicking) */
-  a:active {
-    color: #771819;
-  }
   
 }
+
 
 
 
