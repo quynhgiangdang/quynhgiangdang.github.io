@@ -340,24 +340,9 @@ body {
   .main-nav {
     display: none;
   }
-
-  body a {
-    color: #b76671;
-    text-decoration: underline;
-  }
   
-  body a:hover {
-    color: #ff8a8a;
-  }
-  
-  body a:visited {
-    color: #771819;
-  }
-  
-  body a:active {
-    color: #771819;
-  }
 }
+
 
 
 
