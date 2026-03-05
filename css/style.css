@@ -268,7 +268,7 @@ body {
   height: 2.5rem;
   padding: 0;
   border: none;
-  background: var(--bg-card);
+  background: var(--accent);
   color: var(--text);
   font-size: 1.75rem;
   line-height: 1;
@@ -279,6 +279,7 @@ body {
 
 .lightbox-close:hover {
   background: var(--border);
+  color: var(--text-muted);
 }
 
 .lightbox-img {
@@ -342,6 +343,7 @@ body {
   }
   
 }
+
 
 
 
