@@ -322,6 +322,7 @@ body {
 /* Link colors inside page content only */
 .main-content a {
   color: var(--accent);
+  text-decoration: none;
 }
 
 .main-content a:hover {
@@ -354,6 +355,7 @@ body {
   }
 
 }
+
 
 
 
