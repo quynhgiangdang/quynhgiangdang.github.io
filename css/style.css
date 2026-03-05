@@ -319,24 +319,15 @@ body {
   }
 }
 
-/* Link colors */
-  a:link,
-  a {
-    color: var(--accent);
-  }
-  
-  a:visited {
-    color: var(--accent-hover);
-  }
-  
-  a:hover {
-    color: var(--accent-hover);
-    text-decoration: underline;
-  }
-  
-  a:active {
-    color: var(--accent-hover);
-  }
+/* Link colors inside page content only */
+.main-content a {
+  color: var(--accent);
+}
+
+.main-content a:hover {
+  color: var(--accent-hover);
+  text-decoration: underline;
+}
   
 
 /* Print: show all sections for CV-style printing if needed */
@@ -363,6 +354,7 @@ body {
   }
 
 }
+
 
 
 
