@@ -269,7 +269,7 @@ body {
   padding: 0;
   border: none;
   background: var(--accent);
-  color: var(--text);
+  color: var(--bg);
   font-size: 1.75rem;
   line-height: 1;
   border-radius: 4px;
@@ -278,8 +278,8 @@ body {
 }
 
 .lightbox-close:hover {
-  background: var(--border);
-  color: var(--text-muted);
+  background: var(--accent-hover);
+  color: var(--bg);
 }
 
 .lightbox-img {
@@ -341,8 +341,28 @@ body {
   .main-nav {
     display: none;
   }
+
+/* Link colors */
+  a:link,
+  a {
+    color: var(--accent);
+    text-decoration: underline;
+  }
+  
+  a:visited {
+    color: var(--accent-hover);
+  }
+  
+  a:hover {
+    color: var(--accent-hover);
+  }
+  
+  a:active {
+    color: var(--accent-hover);
+  }
   
 }
+
 
 
 
