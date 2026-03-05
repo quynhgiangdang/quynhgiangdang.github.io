@@ -323,7 +323,6 @@ body {
   a:link,
   a {
     color: var(--accent);
-    text-decoration: underline;
   }
   
   a:visited {
@@ -332,6 +331,7 @@ body {
   
   a:hover {
     color: var(--accent-hover);
+    text-decoration: underline;
   }
   
   a:active {
@@ -363,6 +363,7 @@ body {
   }
 
 }
+
 
 
 
